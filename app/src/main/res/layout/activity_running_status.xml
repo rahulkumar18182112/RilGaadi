@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RunningStatus"
+    android:padding="5dp"
+    android:background="#5369F3">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:cardCornerRadius="50dp"
+            android:backgroundTint="#F6AE35"
+            app:cardUseCompatPadding="true"
+            android:padding="30dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Enter Train name/ Train no."
+                    android:textAlignment="center"
+                    android:textSize="25dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Search"
+                    android:id="@+id/btnSearchRS"
+                    android:backgroundTint="@color/teal_700"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>
