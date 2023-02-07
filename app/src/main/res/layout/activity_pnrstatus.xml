@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RunningStatus"
-    android:padding="5dp"
+    tools:context=".PNRstatus"
     android:background="#03272B">
-
     <LinearLayout
-
+android:layout_marginTop="80dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="80dp"
+
         >
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -33,7 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:hint="Enter Train name/ Train no."
+                    android:hint="Enter PNR no."
                     android:textAlignment="center"
                     android:textSize="25dp"/>
                 <Button
@@ -59,7 +56,7 @@
             android:backgroundTint="#1079E1"
             android:src="@drawable/home"
             android:scaleType="fitCenter"
-            android:id="@+id/btnHomeRun"
+            android:id="@+id/btnHomePnr"
             />
 
         <ImageButton
@@ -69,7 +66,7 @@
             android:backgroundTint="#1079E1"
             android:src="@drawable/aboutusicon"
             android:scaleType="fitCenter"
-            android:id="@+id/btnAboutRun"/>
+            android:id="@+id/btnAboutPnr"/>
         <ImageButton
             android:layout_width="100dp"
             android:layout_marginLeft="5dp"
@@ -77,7 +74,7 @@
             android:backgroundTint="#1079E1"
             android:src="@drawable/askicon"
             android:scaleType="fitCenter"
-            android:id="@+id/btnAskRun"
+            android:id="@+id/btnAskPnr"
             />
         <ImageButton
             android:layout_marginHorizontal="20dp"
@@ -87,8 +84,9 @@
             android:backgroundTint="#1079E1"
             android:src="@drawable/accounticon"
             android:scaleType="fitCenter"
-            android:id="@+id/btnAccountRun"/>
+            android:id="@+id/btnAccountPnr"/>
 
     </LinearLayout>
+
 
 </RelativeLayout>
